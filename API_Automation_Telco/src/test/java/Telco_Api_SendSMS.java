@@ -15,12 +15,7 @@ public class Telco_Api_SendSMS {
     public static void sendRequestForSMS() {
 
 
-        WebDriver driver = new SafariDriver();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
-        driver.manage().window().maximize();
-        driver.get("http://www.google.com");
-        driver.quit();
-      //  sendRequestBody("10");
+        sendRequestBody("10");
 
     }
 
