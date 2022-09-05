@@ -30,7 +30,7 @@ public class Telco_Api_SendSMS {
         for (int i = 0; i <=10; i++) {
 
             //MTN = 2348060817482; Other = 2349091751329; Airtel = 2347019781418
-            RestAssured.baseURI = "http://45.35.48.186";
+            RestAssured.baseURI = "http://url";
             String request = "{\n" +
                     "  \"phoneNumber\": \"2348060817482\",\n" +
                     "  \"message\": \"Test message from santhosh for MTN-- " + series + i + "\",\n" +
