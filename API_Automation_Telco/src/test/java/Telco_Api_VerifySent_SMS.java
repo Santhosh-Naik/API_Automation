@@ -20,7 +20,7 @@ public class Telco_Api_VerifySent_SMS {
 
         for (int i = 0; i <= 10; i++) {
 
-            RestAssured.baseURI = "http://45.35.48.186";
+            RestAssured.baseURI = "http://url";
             String response = "{\n" +
                     "  \"smsReference\": \"TestAirtel_" + series + i + "\"\n" +
                     "}";
